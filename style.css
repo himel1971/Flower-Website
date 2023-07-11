@@ -421,15 +421,13 @@ input[type="text"] {
     width: 680px;
     background-color:  rgb(162, 23, 153);
     border-radius: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
     justify-content: space-between;
+    background-image: url(Asset/Mask.png);
     
 }
-.child1-left{
-   /* background-image: url(Asset/Mask1.png); */
-   /* background-position: left; */
-}
+
 .child1-left img{
     margin-top: -44px;
 }
@@ -459,6 +457,8 @@ input[type="text"] {
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
+    background-image: url(Asset/Mask.png);
+    margin-top: 20px;
 } 
 
 
@@ -490,6 +490,7 @@ input[type="text"] {
     width: 680px;
     background-color: rgb(85,126,101);
     border-radius: 20px;
+    background-image: url(Asset/Mask2.png);
     
  }
  .child{
